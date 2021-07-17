@@ -8,11 +8,11 @@
     "format": "prettier . --write",
     "lint": "eslint . --ext .js,.ts",
     "lint-and-fix": "eslint . --ext .js,.ts --fix",
+    "prepare": "husky install",
     "start": "npm run build && node build/index.js",
     "start:dev": "nodemon",
     "test": "jest",
-    "watch": "tsc -c",
-    "prepare": "husky install"
+    "watch": "tsc -c"
   },
   "author": "Tramaine L. Gillus",
   "repository": {
