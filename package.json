@@ -12,6 +12,8 @@
     "start": "npm run build && node build/index.js",
     "start:dev": "nodemon",
     "test": "jest",
+    "test:cov": "jest --coverage",
+    "test:watch": "jest --watch",
     "watch": "tsc -c"
   },
   "author": "Tramaine L. Gillus",
